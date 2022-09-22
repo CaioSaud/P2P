@@ -1,3 +1,14 @@
-freechains keys shared "senha1"
-freechains chains join '$dict' DCFC1AB7A1D9B7377E9CC4067493C08617ED4F33744EE3E236B98F9D829A20ED
-freechains chain '$dict' post inline "Dev - O Desenvolvedor de software (ou programador) é responsável pela programação, que é o processo de escrita, teste e manutenção de um programa de computador."
+freechains keys pubpvt 'pioneer-password'
+freechains chains join '#dict' ADB56B48005452626DA84219DF000A2F92F63DC533D76BE0B806C4CF84A422F8
+freechains chain '#dict' post --sign=CBBA777B93E03459033D97E249C65DB43547A644D52885C727E42A5B386B4212ADB56B48005452626DA84219DF000A2F92F63DC533D76BE0B806C4CF84A422F8 inline 'Dev - O desenvolvedor é o profissional que escreve e cria softwares, que podem ser websites, programas de computadores pessoais ou empresariais, sistemas operacionais, redes sociais, aplicativos de celular e outros dispositivos, entre outras infinitas possibilidades.'
+freechains chain '#dict' heads blocked
+freechains chain '#dict' get payload 2_ED4DEDAD1F16F9BCB512F2347CBBDE9174E48F5EDB14DD7E4573ABAF6DE234D7
+freechains chain '#dict' like 2_ED4DEDAD1F16F9BCB512F2347CBBDE9174E48F5EDB
+14DD7E4573ABAF6DE234D7 --sign=CBBA777B93E03459033D97E249C65DB43547A644D52885C727E42A5B386B4212ADB56B48005452626DA84219DF000A2F92F63DC533D76BE0B806C4CF84A422F8
+freechains-host now
+freechains-host now 1666456557109
+freechains --host=localhost:8331 peer localhost:8330 send '#dict'
+freechains --host=localhost:8331 chain '#dict' dislike 1_C01784DE50210F887C23E7736D177799DFC24CA159D7424B92BE33E824E0A832 –sign= CBBA777B93E03459033D97E249C65DB43547A644D52885C727E42A5B386B4212ADB56B48005452626DA84219DF000A2F92F63DC533D76BE0B806C4CF84A422F8
+freechains-host now 1666457240588
+freechains chain '#dict' like 3_B2708C50798F09A06B9847DD335A51ED3BB4A73A4BA3E2482C4AE573FFC32D43 --sign=CBBA777B93E03459033D97E249C65DB43547A644D52885C727E42A5B386B4212ADB56B48005452626DA84219DF000A2F92F63DC533D76BE0B806C4CF84A422F8
+freechains-host now 1669049603717
